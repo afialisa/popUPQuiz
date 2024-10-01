@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-Up Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-modal" class="quiz-modal">
+        <h1>Pop-Up Quiz</h1>
+        <div id="question-container">
+            <div id="question"></div>
+            <div id="choices"></div>
+        </div>
+        <button id="submit-btn" onclick="submitAnswer()">Next</button>
+        <div id="score-container" style="display: none;">
+           <h2>Your Score: <span id="score"></span></h2> 
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+ 
+</body>
+</html>
